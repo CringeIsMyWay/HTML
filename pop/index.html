@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>News NKE</title>
+</head>
+<body>
+    <div class = "block">
+    <div class="form-login" style="display: block;">
+    <h1 class="title-from">Log In</h1>
+    <form action="">
+        <label for="lg">Login</label>
+        <input type="text" name="lg" id="lg" required pattern="^[^А-Яа-яЁё]+" title="Only latin letter"> <br>
+        <label for="pw">Password</label>
+        <input type="password" name="pw" id="pw" required pattern="^[^А-Яа-яЁё]+" title="Only latin letter"> <br>
+        <div class="nameReg" style="display: none;">
+        <label for="nm">Name</label>
+        <input type="hidden" name="nm" id="nm" pattern="^[^А-Яа-яЁё]+" title="Only latin letter"> <br>
+        </div>   
+        <br>
+        <input type="button" value="Log in" id="btl" style="display: block;">
+        <br>
+        <input type="button" value="Registration" id="btr">
+        <br></br>
+        <input type="button" value="Registration" id="bbt" style="display: none;">
+        <br>
+        <input type="reset" value="Clear">
+        <p></p>
+    </form>
+    <div id="mes">Hello, Guest!</div>
+
+    </div>
+    </div>
+    <div>
+
+    
+        <div class="main-page" style="display: none;">
+        <iframe src="https://dino-chrome.com/ru"width="550" height="550"></iframe>
+        </div>
+
+        <div class="admin-page" style="display: none;">
+        <br>
+        <p><img src="image/Admin.png" width="130" height="111"></p>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
