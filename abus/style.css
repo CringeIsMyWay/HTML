@@ -1,0 +1,23 @@
+
+ div.container2{
+text-align: center;
+border: 3px solid black;
+margin-left: 800px;
+margin-right: 800px;
+margin-top: 100px;
+padding: 10px;
+background-color:#7c7c81cd
+  } 
+ 
+body{
+
+    
+    background-color: rgb(72, 71, 73);
+ }
+ input { 
+    text-align: center; 
+}
+p{
+    text-align: center;
+
+}
